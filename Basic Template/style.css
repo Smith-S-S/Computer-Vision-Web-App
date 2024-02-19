@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(198, 243, 243);
+}
+
+.main{
+    background-color: aquamarine;
+    height: 100vh;
+    display: flex;
+}
+.side-line{
+    background-color: bisque;
+    height: 100%;
+    width: 10px;
+}
+
+.side-bar{
+    background-color: rgb(237, 149, 41);
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+}
+label{
+    font-size: 25px;
+    font-family: 'Protest Revolution', sans-serif;
+    color: rgb(23, 23, 24);
+    display: block;
+    /* make it down  */
+}
+
+input[type="range"]{
+    width: 90%;
+}
+
+.right-pannel{
+    background-color: rgb(109, 63, 7);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.header{
+    background-color: aqua;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    padding-right: 20px;
+}
+h1{
+    font-size: 25px;
+    font-family: 'Protest Revolution', sans-serif;
+    color: rgb(23, 23, 24);
+}
+.tablet-pannel{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+#tab_image {
+    position: relative;
+    z-index: 1; /* Ensure the tablet image is above the canvas */
+}
+
+#main-canva {
+    position: absolute;
+    z-index: 0; /* Set canvas behind the tablet image */
+
+}
