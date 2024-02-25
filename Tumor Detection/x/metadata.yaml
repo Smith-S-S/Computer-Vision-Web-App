@@ -1,0 +1,15 @@
+description: Ultralytics best (1) model trained on /content/drive/MyDrive/PPE_Detection_YOLOV8/dataset/Brain-Tumor-Detection-2/data.yaml
+author: Ultralytics
+license: AGPL-3.0 https://ultralytics.com/license
+date: '2024-02-16T05:14:10.409492'
+version: 8.0.219
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: glioma-tumor
+  1: meningioma_tumor
+  2: pituitary_tumor
