@@ -1,0 +1,1 @@
+in this Folder the custom trained YOLOv8 model is there.
